@@ -57,6 +57,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime:2.3.0"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.0"
 
+
     // Room
     implementation "androidx.room:room-runtime:2.2.6"
     kapt "androidx.room:room-compiler:2.2.6"
@@ -117,4 +118,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     androidTestImplementation "org.mockito:mockito-core:2.21.0"
 
+    testImplementation "com.google.truth:truth:1.1.2"
 }

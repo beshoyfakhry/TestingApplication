@@ -1,11 +1,9 @@
 package com.beshoy.testingapplication.data.local
 
 import androidx.lifecycle.LiveData
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
+@Dao
 interface ShoppingDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
